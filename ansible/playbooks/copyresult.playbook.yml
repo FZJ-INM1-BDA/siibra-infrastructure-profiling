@@ -25,7 +25,7 @@
 
       rsync -avzPh \
         -e "ssh -i ~/.ssh/zeph" \
-        root@"$linode_ipv4":/root/iav-dep-test/locust_output/* \
+        root@"$linode_ipv4":/root/siibra-infrastructure-profiling/locust_output/* \
         $output_dir
     args:
       executable: /bin/bash

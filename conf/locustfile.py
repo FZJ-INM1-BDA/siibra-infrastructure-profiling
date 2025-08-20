@@ -90,3 +90,5 @@ class SiibraExplorerUser(HttpUser):
                     urls
                 )
             )
+        # quits once all of the content are retrieved once
+        self.environment.runner.quit()
