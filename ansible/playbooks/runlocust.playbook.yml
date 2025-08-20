@@ -1,11 +1,9 @@
 - name: "Run load testing"
   hosts: remotevms
-  serial: '{{ LOCUST_SERIAL }}'
   vars:
     LOCUST_TARGET: data-vm # siibra-api, siibra-explorer
     LOCUST_USERS: "1"
     LOCUST_RUNTIME: "600s" # max runtime
-    LOCUST_SERIAL: "1"
 
   tasks:
   - name: Enable locust and run load test
