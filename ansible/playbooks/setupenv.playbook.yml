@@ -1,0 +1,18 @@
+- name: "Setup node"
+  hosts: remotevms
+
+  tasks:
+  - name: Setup VMs
+    shell: |
+      apt update
+      apt install -y python3-pip python3.12-venv
+      git clone https://github.com/FZJ-INM1-BDA/siibra-infrastructure-profiling.git
+      cd iav-dep-test \
+        && python3 -m venv venv/ \
+        && . venv/bin/activate \
+        && pip install -e .
+
+    become: false
+    args:
+      executable: /bin/bash
+    changed_when: false

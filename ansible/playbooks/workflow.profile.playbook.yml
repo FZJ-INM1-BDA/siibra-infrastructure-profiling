@@ -1,0 +1,17 @@
+- name: "Provde Node"
+  import_playbook: "./provmanynodes.playbook.yml"
+
+- name: "Await Node"
+  import_playbook: "./awaitnode.playbook.yml"
+
+- name: "Setup ENV"
+  import_playbook: "./setupenv.playbook.yml"
+
+- name: "Run locust"
+  import_playbook: "./runlocust.playbook.yml"
+
+- name: "Copy result"
+  import_playbook: "./copyresult.playbook.yml"
+
+- name: "Deprov"
+  import_playbook: "./deprovnode.playbook.yml"

@@ -1,0 +1,75 @@
+- name: "Provision node"
+  hosts: localhost
+  
+  vars:
+    LINODE_TOKEN: XXX
+    LINODE_REGION: XXX
+    LINODE_MULT: 1
+
+  tasks:
+
+  - name: "Validate"
+    assert:
+      that:
+      - "LINODE_TOKEN != 'XXX'"
+      - "LINODE_REGION != 'XXX'"
+      - "LINODE_MULT | int >= 1"
+      fail_msg: |
+        Inputs must be provided:
+
+        - LINODE_TOKEN
+        - LINODE_REGION
+
+  - name: Provision
+
+    shell: |
+      LINODE_ROOTPASS=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 13)
+      provision_result=$(curl \
+          --fail-with-body \
+          -H "Content-Type: application/json" \
+          -H "Authorization: Bearer {{ LINODE_TOKEN }}" \
+          -X POST -d '{
+              "image": "linode/ubuntu24.04",
+              "private_ip": false,
+              "region": "{{ item[0] }}",
+              "type": "g6-nanode-1",
+              "label": "ubuntu-{{ item[0] }}-{{ item[1] }}",
+              "root_pass": "'$LINODE_ROOTPASS'",
+              "authorized_users": [
+                  "xgui3783"
+              ],
+              "disk_encryption": "disabled"
+          }' https://api.linode.com/v4/linode/instances)
+
+      if [[ "$?" != "0" ]]
+      then
+          echo "Create linode failed"
+          exit 1
+      fi
+
+      echo $provision_result | jq -r '.id'
+
+    become: false
+    args:
+      executable: /bin/bash
+    changed_when: false
+    register: provision_output
+    with_community.general.cartesian:
+    - "{{ LINODE_REGION.split(',') }}"
+    - "{{ range(0, LINODE_MULT | int) }}"
+
+
+  - name: "set linode id"
+    set_fact:
+      LINODE_IDS: "{{ provision_output.results | map(attribute='stdout') }}"
+      LINODE_IDS_REGION: "{{ dict(
+          provision_output.results | map(attribute='stdout')
+          | zip (provision_output.results | map(attribute='item') | map('join', '-') )
+        ) }}"
+  
+  - name: "debug"
+    debug: 
+      msg:
+      - "LINODE_IDS: {{ LINODE_IDS }}"
+      - "LINODE_IDS_REGION: {{ LINODE_IDS_REGION }}"
+  

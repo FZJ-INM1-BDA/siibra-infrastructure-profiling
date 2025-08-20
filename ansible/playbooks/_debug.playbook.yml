@@ -1,0 +1,19 @@
+- name: "test play"
+  hosts: localhost
+  vars:
+    LINODE_REGION: foo
+    LINODE_MULT: 2
+  tasks:
+  - shell: |
+      echo id-{{ item[0] }}-{{ item[1] }}
+    register: provision_output
+    with_community.general.cartesian:
+    - "{{ LINODE_REGION.split(',') }}"
+    - "{{ range(0, LINODE_MULT) }}"
+  - set_fact:
+      LINODE_IDS_LABEL: "{{ dict(
+          provision_output.results | map(attribute='stdout')
+          | zip (provision_output.results | map(attribute='item') | map('join', '-') )
+        ) }}"
+      
+  - debug: var=LINODE_IDS_LABEL

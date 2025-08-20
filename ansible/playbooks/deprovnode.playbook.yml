@@ -1,0 +1,45 @@
+- name: "Deprovision node"
+  hosts: localhost
+  
+  vars:
+    LINODE_TOKEN: XXX
+
+  tasks:
+
+  - name: "Validate"
+    assert:
+      that:
+      - "LINODE_TOKEN != 'XXX'"
+      - "LINODE_IDS != 'XXX'"
+      fail_msg: |
+        Inputs must be provided:
+
+        - LINODE_TOKEN
+        - LINODE_IDS
+
+  - name: Deprovision
+    shell: |
+      curl --fail-with-body\
+          --request DELETE \
+          -H "Authorization: Bearer {{ LINODE_TOKEN }}" \
+          --url https://api.linode.com/v4/linode/instances/{{ item }} \
+          --header 'accept: application/json'
+          
+      if [[ "$?" != "0" ]]
+      then
+          echo "Deprovision linode failed"
+          exit 1
+      fi
+    loop: "{{ LINODE_IDS }}"
+
+    become: false
+    args:
+      executable: /bin/bash
+    changed_when: false
+
+  - name: Remove known_hosts
+    known_hosts:
+      name: "{{ item }}" 
+      state: absent
+    loop: "{{ groups['remotevms'] }}"
+    changed_when: false

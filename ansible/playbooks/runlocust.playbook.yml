@@ -1,0 +1,27 @@
+- name: "Run load testing"
+  hosts: remotevms
+  vars:
+    LOCUST_TARGET: data-vm # siibra-api, siibra-explorer
+    LOCUST_USERS: "1"
+    LOCUST_RUNTIME: "60s"
+
+  tasks:
+  - name: Enable locust and run load test
+    shell: |
+      export LOCUST_TARGET="{{ LOCUST_TARGET }}"
+      cd iav-dep-test \
+        && . venv/bin/activate \
+        && locust --host https://atlases.ebrains.eu \
+          --headless \
+          --run-time {{ LOCUST_RUNTIME }} \
+          --users {{ LOCUST_USERS }} \
+          --csv locust_output/output \
+          --json-file locust_output/output \
+          --skip-log \
+          --exit-code-on-error 0 \
+          -f siibra/sxplr_locust/locustfile.py
+
+    become: false
+    args:
+      executable: /bin/bash
+    changed_when: false

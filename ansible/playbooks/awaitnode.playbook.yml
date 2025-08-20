@@ -1,0 +1,61 @@
+- name: "Await provision node"
+  hosts: localhost
+  
+  vars:
+    LINODE_TOKEN: XXX
+    LINODE_IDS: XXX
+
+  tasks:
+
+  - name: "Validate"
+    assert:
+      that:
+      - "LINODE_TOKEN != 'XXX'"
+      - "LINODE_IDS != 'XXX'"
+      fail_msg: |
+        Inputs must be provided:
+
+        - LINODE_TOKEN
+        - LINODE_IDS
+
+  - name: "Ensure readies"
+    uri: 
+      url: https://api.linode.com/v4/linode/instances/{{ item }}
+      headers:
+        Authorization: "Bearer {{ LINODE_TOKEN }}"
+        Accept: "application/json"
+    register: node_status
+    until: node_status.json.status == "running"
+    retries: 600
+    delay: 1
+    loop: "{{ LINODE_IDS }}"
+
+  - name: "set linode id"
+    set_fact:
+      LINODE_IDS_IPV4S: "{{ dict(
+          node_status.results | map(attribute='item')
+          | zip (node_status.results | map(attribute='json') | map(attribute='ipv4') | flatten )
+        ) }}"
+  
+  - debug: var=LINODE_IDS_IPV4S
+  
+- name: "Ensure reachable"
+  hosts: localhost
+  tasks:
+  - shell: |
+      ssh -o StrictHostKeyChecking=no -i ~/.ssh/zeph root@{{ item }} -- echo "done"
+    args:
+      executable: /bin/bash
+    changed_when: false
+    register: query_output
+    until: query_output.stdout == "done"
+    retries: 60
+    delay: 1
+    loop: "{{ LINODE_IDS_IPV4S | dict2items | map(attribute='value') }}"
+
+  - name: "Add host"
+    add_host:
+      hostname: "{{ item }}"
+      groups: remotevms
+    loop: "{{ LINODE_IDS_IPV4S | dict2items | map(attribute='value') }}"
+    changed_when: false

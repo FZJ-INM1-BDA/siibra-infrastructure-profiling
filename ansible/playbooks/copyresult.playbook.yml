@@ -1,0 +1,34 @@
+- name: "Copy result"
+  hosts: localhost
+  vars:
+    TARGET_DIR: ../../locust_output/single-run/
+
+  tasks:
+  - name: Debug VMs
+    debug:
+      msg:
+      - "vm: {{ item }}"
+    loop: "{{ groups['remotevms'] }}"
+  
+  - debug:
+      msg: "{{ item.key }}"
+    loop: "{{ LINODE_IDS_IPV4S | dict2items }}"
+
+  - name: Copy result
+    shell: |
+      linode_ipv4='{{ item.value }}'
+      linode_id='{{ item.key }}'
+      linode_region='{{ LINODE_IDS_REGION[item.key] }}'
+
+      output_dir={{ TARGET_DIR }}/linode-"$linode_region"/
+      mkdir -p $output_dir
+
+      rsync -avzPh \
+        -e "ssh -i ~/.ssh/zeph" \
+        root@"$linode_ipv4":/root/iav-dep-test/locust_output/* \
+        $output_dir
+    args:
+      executable: /bin/bash
+    changed_when: false
+    loop: "{{ LINODE_IDS_IPV4S | dict2items }}"
+
