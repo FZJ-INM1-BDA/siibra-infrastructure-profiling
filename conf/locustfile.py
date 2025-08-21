@@ -38,6 +38,29 @@ target_dictionaries = [
             "https://neuroglancer.humanbrainproject.eu"
         ],
         excludes=[]
+    ),
+    Target(
+        name="cdn-siibra-explorer",
+        includes=[
+            "neuroglancer-test-vm.examcopedia.club/viewer"
+        ],
+        excludes=[]
+    ),
+    Target(
+        name="cdn-siibra-api",
+        includes=[
+            "neuroglancer-test-vm.examcopedia.club/api"
+        ],
+        excludes=[
+            "&bbox="
+        ]
+    ),
+    Target(
+        name="cdn-data-vm",
+        includes=[
+            "neuroglancer-test-vm.examcopedia.club/precomputed"
+        ],
+        excludes=[]
     )
 ]
 
