@@ -1,6 +1,7 @@
 import os
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
+import time
 
 from locust import HttpUser, task
 
@@ -90,5 +91,6 @@ class SiibraExplorerUser(HttpUser):
                     urls
                 )
             )
+        time.sleep(5)
         # quits once all of the content are retrieved once
         self.environment.runner.quit()
