@@ -1,0 +1,1087 @@
+[
+    {
+        "name": "/api/v3_0/atlases",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.221911,
+        "start_time": 1755791154.132442,
+        "num_requests": 2,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 1105.116038999995,
+        "max_response_time": 595.8436359999979,
+        "min_response_time": 509.2724029999971,
+        "total_content_length": 6976,
+        "response_times": {
+            "510.0": 1,
+            "600.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 2
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/spaces/minds/core/referencespace/v1.0.0/7f39f7be-445b-47c0-9791-e971c0b6d992",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.1797323,
+        "start_time": 1755791154.1797235,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 553.0851689999992,
+        "max_response_time": 553.0851689999992,
+        "min_response_time": 553.0851689999992,
+        "total_content_length": 3357,
+        "response_times": {
+            "550.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/spaces/minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.1876385,
+        "start_time": 1755791154.187632,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 559.6830470000072,
+        "max_response_time": 559.6830470000072,
+        "min_response_time": 559.6830470000072,
+        "total_content_length": 3607,
+        "response_times": {
+            "560.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/spaces/minds/core/referencespace/v1.0.0/tmp-fsaverage",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.2233887,
+        "start_time": 1755791154.2233806,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 594.9276150000031,
+        "max_response_time": 594.9276150000031,
+        "min_response_time": 594.9276150000031,
+        "total_content_length": 3664,
+        "response_times": {
+            "590.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/spaces/minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.2718441,
+        "start_time": 1755791154.271836,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 642.4499200000042,
+        "max_response_time": 642.4499200000042,
+        "min_response_time": 642.4499200000042,
+        "total_content_length": 2525,
+        "response_times": {
+            "640.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/parcellations/juelich/iav/atlas/v1.0.0/79cbeaa4ee96d5d3dfe2876e9f74b3dc3d3ffb84304fb9b965b1776563a1069c",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.3064423,
+        "start_time": 1755791154.306433,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 173.8957680000084,
+        "max_response_time": 173.8957680000084,
+        "min_response_time": 173.8957680000084,
+        "total_content_length": 80016,
+        "response_times": {
+            "170.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/parcellations/minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-300",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.3664656,
+        "start_time": 1755791154.3664565,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 178.75021500000798,
+        "max_response_time": 178.75021500000798,
+        "min_response_time": 178.75021500000798,
+        "total_content_length": 142801,
+        "response_times": {
+            "180.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/parcellations/minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.369826,
+        "start_time": 1755791154.3698196,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 190.02735500001222,
+        "max_response_time": 190.02735500001222,
+        "min_response_time": 190.02735500001222,
+        "total_content_length": 184750,
+        "response_times": {
+            "190.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/parcellations/minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.4015641,
+        "start_time": 1755791154.401556,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 179.57030600000223,
+        "max_response_time": 179.57030600000223,
+        "min_response_time": 179.57030600000223,
+        "total_content_length": 290748,
+        "response_times": {
+            "180.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/parcellations/minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.411779,
+        "start_time": 1755791154.4117703,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 188.33406400000285,
+        "max_response_time": 188.33406400000285,
+        "min_response_time": 188.33406400000285,
+        "total_content_length": 88830,
+        "response_times": {
+            "190.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/parcellations/juelich/iav/atlas/v1.0.0/4",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.4455266,
+        "start_time": 1755791154.445518,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 173.59600700000044,
+        "max_response_time": 173.59600700000044,
+        "min_response_time": 173.59600700000044,
+        "total_content_length": 3808,
+        "response_times": {
+            "170.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/parcellations/minds/core/parcellationatlas/v1.0.0/d80fbab2-ce7f-4901-a3a2-3c8ef8a3b721",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.4907613,
+        "start_time": 1755791154.4907515,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 184.22540399998866,
+        "max_response_time": 184.22540399998866,
+        "min_response_time": 184.22540399998866,
+        "total_content_length": 10610,
+        "response_times": {
+            "180.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/parcellations/minds/core/parcellationatlas/v1.0.0/63b5794f-79a4-4464-8dc1-b32e170f3d16",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.5413833,
+        "start_time": 1755791154.541372,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 174.82098400000723,
+        "max_response_time": 174.82098400000723,
+        "min_response_time": 174.82098400000723,
+        "total_content_length": 69432,
+        "response_times": {
+            "170.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/parcellations/minds/core/parcellationatlas/v1.0.0/141d510f-0342-4f94-ace7-c97d5f160235",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.5633657,
+        "start_time": 1755791154.5633585,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 193.47338199999342,
+        "max_response_time": 193.47338199999342,
+        "min_response_time": 193.47338199999342,
+        "total_content_length": 35323,
+        "response_times": {
+            "190.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/parcellations/minds/core/parcellationatlas/v1.0.0/73f41e04-b7ee-4301-a828-4b298ad05ab8",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.5795882,
+        "start_time": 1755791154.5795815,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 177.94612599999482,
+        "max_response_time": 177.94612599999482,
+        "min_response_time": 177.94612599999482,
+        "total_content_length": 19068,
+        "response_times": {
+            "180.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/parcellations/minds/core/parcellationatlas/v1.0.0/12fca5c5-b02c-46ce-ab9f-f12babf4c7e1",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.5938256,
+        "start_time": 1755791154.5938191,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 181.98564400000805,
+        "max_response_time": 181.98564400000805,
+        "min_response_time": 181.98564400000805,
+        "total_content_length": 137262,
+        "response_times": {
+            "180.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/parcellations/juelich/iav/atlas/v1.0.0/3",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.61727,
+        "start_time": 1755791154.617263,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 171.66650200000788,
+        "max_response_time": 171.66650200000788,
+        "min_response_time": 171.66650200000788,
+        "total_content_length": 5417,
+        "response_times": {
+            "170.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/parcellations/juelich/iav/atlas/v1.0.0/6",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.666441,
+        "start_time": 1755791154.6664314,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 175.58574899999257,
+        "max_response_time": 175.58574899999257,
+        "min_response_time": 175.58574899999257,
+        "total_content_length": 7673,
+        "response_times": {
+            "180.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/parcellations/juelich/iav/atlas/v1.0.0/5",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.7149794,
+        "start_time": 1755791154.7149699,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 173.5026349999913,
+        "max_response_time": 173.5026349999913,
+        "min_response_time": 173.5026349999913,
+        "total_content_length": 6084,
+        "response_times": {
+            "170.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/maps?map_type=LABELLED&space_id=minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2&page=1",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.7532609,
+        "start_time": 1755791154.7532523,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 173.59119900000053,
+        "max_response_time": 173.59119900000053,
+        "min_response_time": 173.59119900000053,
+        "total_content_length": 7333,
+        "response_times": {
+            "170.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.7665825,
+        "start_time": 1755791154.7665691,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 172.66839299999504,
+        "max_response_time": 172.66839299999504,
+        "min_response_time": 172.66839299999504,
+        "total_content_length": 43020,
+        "response_times": {
+            "170.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310&page=16",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.7885115,
+        "start_time": 1755791154.7885034,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 171.1769589999932,
+        "max_response_time": 171.1769589999932,
+        "min_response_time": 171.1769589999932,
+        "total_content_length": 18952,
+        "response_times": {
+            "170.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/maps?map_type=LABELLED&parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310&page=1",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.7969084,
+        "start_time": 1755791154.7969027,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 233.48645800000156,
+        "max_response_time": 233.48645800000156,
+        "min_response_time": 233.48645800000156,
+        "total_content_length": 1349,
+        "response_times": {
+            "230.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310&page=15",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.834045,
+        "start_time": 1755791154.83403,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 167.4853359999986,
+        "max_response_time": 167.4853359999986,
+        "min_response_time": 167.4853359999986,
+        "total_content_length": 44758,
+        "response_times": {
+            "170.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310&page=14",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.9025407,
+        "start_time": 1755791154.9025247,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 187.44019100000742,
+        "max_response_time": 187.44019100000742,
+        "min_response_time": 187.44019100000742,
+        "total_content_length": 43273,
+        "response_times": {
+            "190.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310&page=13",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.9369116,
+        "start_time": 1755791154.9369023,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 183.55274099999974,
+        "max_response_time": 183.55274099999974,
+        "min_response_time": 183.55274099999974,
+        "total_content_length": 43725,
+        "response_times": {
+            "180.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310&page=12",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.9420383,
+        "start_time": 1755791154.9420304,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 175.3390730000035,
+        "max_response_time": 175.3390730000035,
+        "min_response_time": 175.3390730000035,
+        "total_content_length": 44140,
+        "response_times": {
+            "180.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310&page=11",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.9597478,
+        "start_time": 1755791154.959734,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 171.14220800000624,
+        "max_response_time": 171.14220800000624,
+        "min_response_time": 171.14220800000624,
+        "total_content_length": 42680,
+        "response_times": {
+            "170.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310&page=10",
+        "method": "GET",
+        "last_request_timestamp": 1755791154.9779894,
+        "start_time": 1755791154.97798,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 181.00703700000054,
+        "max_response_time": 181.00703700000054,
+        "min_response_time": 181.00703700000054,
+        "total_content_length": 42419,
+        "response_times": {
+            "180.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791154": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310&page=9",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.0104697,
+        "start_time": 1755791155.0104606,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 176.2805680000099,
+        "max_response_time": 176.2805680000099,
+        "min_response_time": 176.2805680000099,
+        "total_content_length": 42559,
+        "response_times": {
+            "180.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310&page=8",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.0768638,
+        "start_time": 1755791155.0768542,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 174.17215300000066,
+        "max_response_time": 174.17215300000066,
+        "min_response_time": 174.17215300000066,
+        "total_content_length": 42433,
+        "response_times": {
+            "170.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310&page=7",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.1230497,
+        "start_time": 1755791155.1230392,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 186.03608900001234,
+        "max_response_time": 186.03608900001234,
+        "min_response_time": 186.03608900001234,
+        "total_content_length": 42438,
+        "response_times": {
+            "190.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310&page=6",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.1239107,
+        "start_time": 1755791155.1239045,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 181.81279200000233,
+        "max_response_time": 181.81279200000233,
+        "min_response_time": 181.81279200000233,
+        "total_content_length": 42904,
+        "response_times": {
+            "180.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310&page=5",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.1350703,
+        "start_time": 1755791155.135062,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 175.21995100000254,
+        "max_response_time": 175.21995100000254,
+        "min_response_time": 175.21995100000254,
+        "total_content_length": 42794,
+        "response_times": {
+            "180.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310&page=4",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.1606584,
+        "start_time": 1755791155.1606498,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 182.56807500000605,
+        "max_response_time": 182.56807500000605,
+        "min_response_time": 182.56807500000605,
+        "total_content_length": 42641,
+        "response_times": {
+            "180.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310&page=3",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.1909046,
+        "start_time": 1755791155.1908953,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 180.3191799999979,
+        "max_response_time": 180.3191799999979,
+        "min_response_time": 180.3191799999979,
+        "total_content_length": 42374,
+        "response_times": {
+            "180.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310&page=2",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.258452,
+        "start_time": 1755791155.2584372,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 181.47130699999536,
+        "max_response_time": 181.47130699999536,
+        "min_response_time": 181.47130699999536,
+        "total_content_length": 42319,
+        "response_times": {
+            "180.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/map?map_type=LABELLED&parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310&space_id=minds/core/referencespace/v1.0.0/dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.3002558,
+        "start_time": 1755791155.300247,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 177.112527999995,
+        "max_response_time": 177.112527999995,
+        "min_response_time": 177.112527999995,
+        "total_content_length": 50044,
+        "response_times": {
+            "180.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/feature/_types",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.3009057,
+        "start_time": 1755791155.3008997,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 176.94278400000485,
+        "max_response_time": 176.94278400000485,
+        "min_response_time": 176.94278400000485,
+        "total_content_length": 8002,
+        "response_times": {
+            "180.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/maps?map_type=LABELLED&space_id=minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588&page=1",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.3049705,
+        "start_time": 1755791155.304964,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 169.8298689999973,
+        "max_response_time": 169.8298689999973,
+        "min_response_time": 169.8298689999973,
+        "total_content_length": 1289,
+        "response_times": {
+            "170.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.3481097,
+        "start_time": 1755791155.3480916,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 187.31363999999928,
+        "max_response_time": 187.31363999999928,
+        "min_response_time": 187.31363999999928,
+        "total_content_length": 42337,
+        "response_times": {
+            "190.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290&page=12",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.358678,
+        "start_time": 1755791155.3586717,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 167.70242500000165,
+        "max_response_time": 167.70242500000165,
+        "min_response_time": 167.70242500000165,
+        "total_content_length": 55,
+        "response_times": {
+            "170.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290&page=11",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.4354365,
+        "start_time": 1755791155.435413,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 176.83448200000385,
+        "max_response_time": 176.83448200000385,
+        "min_response_time": 176.83448200000385,
+        "total_content_length": 9235,
+        "response_times": {
+            "180.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290&page=10",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.4786956,
+        "start_time": 1755791155.478687,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 178.35762299999658,
+        "max_response_time": 178.35762299999658,
+        "min_response_time": 178.35762299999658,
+        "total_content_length": 43222,
+        "response_times": {
+            "180.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290&page=9",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.4794192,
+        "start_time": 1755791155.4794116,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 178.45224500000256,
+        "max_response_time": 178.45224500000256,
+        "min_response_time": 178.45224500000256,
+        "total_content_length": 42785,
+        "response_times": {
+            "180.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290&page=8",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.5045676,
+        "start_time": 1755791155.5045602,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 199.5364790000025,
+        "max_response_time": 199.5364790000025,
+        "min_response_time": 199.5364790000025,
+        "total_content_length": 42642,
+        "response_times": {
+            "200.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290&page=6",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.529242,
+        "start_time": 1755791155.529235,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 170.49342299999637,
+        "max_response_time": 170.49342299999637,
+        "min_response_time": 170.49342299999637,
+        "total_content_length": 42806,
+        "response_times": {
+            "170.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290&page=7",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.5299556,
+        "start_time": 1755791155.5299492,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 181.72785800000213,
+        "max_response_time": 181.72785800000213,
+        "min_response_time": 181.72785800000213,
+        "total_content_length": 42683,
+        "response_times": {
+            "180.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290&page=5",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.6118827,
+        "start_time": 1755791155.6118653,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 176.33617100000265,
+        "max_response_time": 176.33617100000265,
+        "min_response_time": 176.33617100000265,
+        "total_content_length": 42794,
+        "response_times": {
+            "180.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290&page=4",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.6510527,
+        "start_time": 1755791155.6510456,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 172.27784300000337,
+        "max_response_time": 172.27784300000337,
+        "min_response_time": 172.27784300000337,
+        "total_content_length": 43023,
+        "response_times": {
+            "170.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290&page=3",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.6657772,
+        "start_time": 1755791155.665771,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 186.2918049999962,
+        "max_response_time": 186.2918049999962,
+        "min_response_time": 186.2918049999962,
+        "total_content_length": 42663,
+        "response_times": {
+            "190.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/regions?parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290&page=2",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.6791375,
+        "start_time": 1755791155.6791317,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 174.50817900000004,
+        "max_response_time": 174.50817900000004,
+        "min_response_time": 174.50817900000004,
+        "total_content_length": 42452,
+        "response_times": {
+            "170.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/api/v3_0/map?map_type=LABELLED&parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-310&space_id=minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.77845,
+        "start_time": 1755791155.778442,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 1,
+        "total_response_time": 248.39795699999456,
+        "max_response_time": 248.39795699999456,
+        "min_response_time": 248.39795699999456,
+        "total_content_length": 67,
+        "response_times": {
+            "250.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {
+            "1755791155": 1
+        }
+    },
+    {
+        "name": "/api/v3_0/map?map_type=LABELLED&parcellation_id=minds/core/parcellationatlas/v1.0.0/94c1125b-b87e-45e4-901c-00daee7f2579-290&space_id=minds/core/referencespace/v1.0.0/a1655b99-82f1-420f-a3c2-fe80fd4c8588",
+        "method": "GET",
+        "last_request_timestamp": 1755791155.80195,
+        "start_time": 1755791155.8019447,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 1,
+        "total_response_time": 272.645008000012,
+        "max_response_time": 272.645008000012,
+        "min_response_time": 272.645008000012,
+        "total_content_length": 67,
+        "response_times": {
+            "270.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1755791155": 1
+        },
+        "num_fail_per_sec": {
+            "1755791155": 1
+        }
+    }
+]

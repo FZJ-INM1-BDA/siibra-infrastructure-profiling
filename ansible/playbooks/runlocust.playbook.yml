@@ -4,15 +4,18 @@
     LOCUST_TARGET: data-vm # siibra-api, siibra-explorer
     LOCUST_USERS: "1"
     LOCUST_RUNTIME: "600s" # max runtime
+    LOCUST_FILENAME: "conf/bigbrain.txt"
 
   tasks:
   - name: Enable locust and run load test
     shell: |
       export LOCUST_TARGET="{{ LOCUST_TARGET }}"
+      export LOCUST_FILENAME="{{ LOCUST_FILENAME }}"
       cd siibra-infrastructure-profiling \
         && . venv/bin/activate \
         && locust --host https://atlases.ebrains.eu \
           --headless \
+          --stop-timeout 10 \
           --run-time {{ LOCUST_RUNTIME }} \
           --users {{ LOCUST_USERS }} \
           --csv locust_output/output \
