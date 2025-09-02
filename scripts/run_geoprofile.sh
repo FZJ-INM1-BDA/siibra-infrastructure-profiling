@@ -1,6 +1,7 @@
 #! /bin/bash
 
 regions="eu-central,us-west,us-east,ap-southeast"
+LOCUST_FILENAME=${LOCUST_FILENAME:-conf/bigbrain.txt}
 
 IFS=","
 
@@ -13,6 +14,7 @@ do
         -e TARGET_DIR=../../run-result/geoprofile-datavm/ \
         -e LOCUST_TARGET=$LOCUST_TARGET \
         -e LINODE_TOKEN=$LINODE_TOKEN \
+        -e LOCUST_FILENAME=$LOCUST_FILENAME \
         -e LINODE_REGION=$region \
         ansible/playbooks/workflow.profile.playbook.yml
 done
@@ -26,6 +28,7 @@ do
         -e TARGET_DIR=../../run-result/geoprofile-siibraapi/ \
         -e LOCUST_TARGET=$LOCUST_TARGET \
         -e LINODE_TOKEN=$LINODE_TOKEN \
+        -e LOCUST_FILENAME=$LOCUST_FILENAME \
         -e LINODE_REGION=$region \
         ansible/playbooks/workflow.profile.playbook.yml
 done
@@ -39,6 +42,7 @@ do
         -e TARGET_DIR=../../run-result/geoprofile-siibraexplorer/ \
         -e LOCUST_TARGET=$LOCUST_TARGET \
         -e LINODE_TOKEN=$LINODE_TOKEN \
+        -e LOCUST_FILENAME=$LOCUST_FILENAME \
         -e LINODE_REGION=$region \
         ansible/playbooks/workflow.profile.playbook.yml
 done
