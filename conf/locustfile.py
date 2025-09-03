@@ -77,8 +77,8 @@ urls = [u
         for u in urls_txt.split("\n")
         if (
             u != ""
-            or any(u.startswith(ex) for ex in exceptions)
-            or not u.startswith("https")
+            and not any(u.startswith(ex) for ex in exceptions)
+            and u.startswith("https")
             )]
 
 class SiibraExplorerUser(HttpUser):
