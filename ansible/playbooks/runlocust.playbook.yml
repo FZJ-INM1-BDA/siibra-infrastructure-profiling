@@ -11,20 +11,35 @@
     shell: |
       export LOCUST_TARGET="{{ LOCUST_TARGET }}"
       export LOCUST_FILENAME="{{ LOCUST_FILENAME }}"
+
       cd siibra-infrastructure-profiling \
-        && . venv/bin/activate \
-        && locust --host https://atlases.ebrains.eu \
-          --headless \
-          --stop-timeout 10 \
-          --run-time {{ LOCUST_RUNTIME }} \
-          --users {{ LOCUST_USERS }} \
-          --csv locust_output/output \
-          --json-file locust_output/output \
-          --skip-log \
-          --exit-code-on-error 0 \
-          -f conf/locustfile.py
+        && mkdir -p locust_output/ \
+        && . venv/bin/activate
+        
+      nohup locust --host https://atlases.ebrains.eu \
+        --headless \
+        --stop-timeout 10 \
+        --run-time {{ LOCUST_RUNTIME }} \
+        --users {{ LOCUST_USERS }} \
+        --csv locust_output/output \
+        --json-file locust_output/output \
+        --skip-log \
+        --exit-code-on-error 0 \
+        -f conf/locustfile.py > locust_output/log 2> locust_output/err &
+      echo $!
 
     become: false
+    register: locust_run_status
     args:
       executable: /bin/bash
     changed_when: false
+  - debug: var=locust_run_status
+
+  - wait_for_connection:
+      delay: 10
+      timeout: 60
+
+  - name: Wait until process ends
+    wait_for: 
+      path: /proc/{{ locust_run_status.stdout }}/status
+      state: absent

@@ -16,3 +16,6 @@
     args:
       executable: /bin/bash
     changed_when: false
+    retries: 10
+    register: setupvm
+    until: setupvm is not failed

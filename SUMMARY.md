@@ -1,6 +1,3 @@
-> internal notes: never mention need to maximize?
-> 
-
 siibra toolsuite facilitates the access of arbitarily large data by just-in-time requesting the relevant data at appropriate level of detail over the network. This approach has several advantages:
 
 - it grants the end users the control and flexibility to define areas of interest and level of details
@@ -103,6 +100,17 @@ siibra-api is deployed via a kubernetes installation maintained by EBRAINS infra
 | latency test ap-southeast | 310 |
 
 *Table 3. Median response time (milliseconds) of siibra-api server under load/latency tests*
+
+### Metrics from users' perspective
+
+A typical usecase [conf/guided_workflow.readme.md](conf/guided_workflow.readme.md) was carried out three times, each in servers based in different geographical locations. The elapsed time was calculated and tabulated.
+
+| server location | elasped time (s) |
+| --- | --- |
+| eu-central | 13.6 (2.1) |
+| us-east | 69.4 (1.4) |
+| us-west | 111.1 (1.3) |
+| ap-southeast | 249.4 (3.9) |
 
 ## Discussions
 
