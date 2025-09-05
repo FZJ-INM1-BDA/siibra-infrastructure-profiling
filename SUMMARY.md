@@ -112,21 +112,23 @@ A typical usecase [conf/guided_workflow.readme.md](conf/guided_workflow.readme.m
 | us-west | 111.1 (1.3) |
 | ap-southeast | 249.4 (3.9) |
 
+*Table 4. Total time elapsed (s) for the guided workflow conducted on servers in various geographical locations*
+
 ## Discussions
 
 ### Characteristics of web servers
 
-Siibra-toolsuite makes use of three groups of web servers: image data virtual machine(s), siibra-api web servers, and siibra-explorer web server(s). The distinction was designed to compartmentalize the service components according to their access patterns (Table 4.). This strategy allows the infrastructure, deployment strategies, and software components of each server group to be fine-tuned, in order to optimize the tradeoff between performance and maintainability.
+Siibra-toolsuite makes use of three groups of web servers: image data virtual machine(s), siibra-api web servers, and siibra-explorer web server(s). The distinction was designed to compartmentalize the service components according to their access patterns (Table 5.). This strategy allows the infrastructure, deployment strategies, and software components of each server group to be fine-tuned, in order to optimize the tradeoff between performance and maintainability.
 
 |  | data-vm | siibra-api | siibra-explorer |
 | --- | --- | --- | --- |
 | number of requests | 1647 | 100 | 36 |
-| average response size (kb) | **89** | 41 | 166 |
+| average response size (kb) | 89 | 41 | 166 |
 | update frequency (per year) | 2 | 6 | 20 |
 | required storage (GB) | >500 | 10 | 2 |
 | access pattern (see Figure 1) | high, constant | low, sporadic | low, front loaded |
 
-*Table 4. Number of requests, average response size, update frequency of the servers*
+*Table 5. Number of requests, average response size, update frequency of the servers*
 
 TODO add figure
 
