@@ -2,7 +2,7 @@
 
 regions="eu-central,us-west,us-east,ap-southeast"
 LOCUST_FILENAME=${LOCUST_FILENAME:-conf/bigbrain.txt}
-
+GEOPROFILE_COUNT=${GEOPROFILE_COUNT:-0}
 IFS=","
 
 for region in $regions
@@ -11,7 +11,7 @@ do
     LOCUST_TARGET="data-vm"
     
     ansible-playbook -i ansible/inventory.yml \
-        -e TARGET_DIR=../../run-result/geoprofile-datavm/ \
+        -e TARGET_DIR=../../run-result/geoprofile-datavm-$GEOPROFILE_COUNT/ \
         -e LOCUST_TARGET=$LOCUST_TARGET \
         -e LINODE_TOKEN=$LINODE_TOKEN \
         -e LOCUST_FILENAME=$LOCUST_FILENAME \
@@ -25,7 +25,7 @@ do
     LOCUST_TARGET="siibra-api"
     
     ansible-playbook -i ansible/inventory.yml \
-        -e TARGET_DIR=../../run-result/geoprofile-siibraapi/ \
+        -e TARGET_DIR=../../run-result/geoprofile-siibraapi-$GEOPROFILE_COUNT/ \
         -e LOCUST_TARGET=$LOCUST_TARGET \
         -e LINODE_TOKEN=$LINODE_TOKEN \
         -e LOCUST_FILENAME=$LOCUST_FILENAME \
@@ -39,7 +39,7 @@ do
     LOCUST_TARGET="siibra-explorer"
     
     ansible-playbook -i ansible/inventory.yml \
-        -e TARGET_DIR=../../run-result/geoprofile-siibraexplorer/ \
+        -e TARGET_DIR=../../run-result/geoprofile-siibraexplorer-$GEOPROFILE_COUNT/ \
         -e LOCUST_TARGET=$LOCUST_TARGET \
         -e LINODE_TOKEN=$LINODE_TOKEN \
         -e LOCUST_FILENAME=$LOCUST_FILENAME \
