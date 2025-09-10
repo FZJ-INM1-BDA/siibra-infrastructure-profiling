@@ -1,0 +1,2 @@
+Method,Name,Error,Occurrences
+GET,/viewer/user,HTTPError('401 Client Error: Unauthorized for url: /viewer/user'),1

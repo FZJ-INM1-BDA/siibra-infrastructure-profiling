@@ -24,7 +24,7 @@
       mkdir -p $output_dir
 
       rsync -avzPh \
-        -e "ssh -i ~/.ssh/zeph" \
+        -e "ssh -i ~/.ssh/zeph -oStrictHostKeyChecking=no" \
         root@"$linode_ipv4":/root/siibra-infrastructure-profiling/locust_output/* \
         $output_dir
     args:
