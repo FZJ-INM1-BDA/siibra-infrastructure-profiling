@@ -62,6 +62,6 @@ yml='
   import_playbook: "./ansible/playbooks/deprovnode.playbook.yml"
 '
 
-ansible-playbook -i ansible/inventory.yml /dev/stdin << EOF
-$yml
-EOF
+echo -n "$yml" > tmp.playbook.yml
+ansible-playbook -i ansible/inventory.yml tmp.playbook.yml
+rm tmp.playbook.yml

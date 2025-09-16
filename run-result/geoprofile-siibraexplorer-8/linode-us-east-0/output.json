@@ -1,0 +1,704 @@
+[
+    {
+        "name": "/viewer/",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.051215,
+        "start_time": 1758002612.0512044,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 789.0934410000057,
+        "max_response_time": 789.0934410000057,
+        "min_response_time": 789.0934410000057,
+        "total_content_length": 5771,
+        "response_times": {
+            "790.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/version.css",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.0548599,
+        "start_time": 1758002612.0548522,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 787.095824000005,
+        "max_response_time": 787.095824000005,
+        "min_response_time": 787.095824000005,
+        "total_content_length": 27,
+        "response_times": {
+            "790.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/icons/iav-icons.css",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.0786407,
+        "start_time": 1758002612.0786302,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 811.5387750000025,
+        "max_response_time": 811.5387750000025,
+        "min_response_time": 811.5387750000025,
+        "total_content_length": 518,
+        "response_times": {
+            "810.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/extra_js.js",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.1041884,
+        "start_time": 1758002612.104178,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 835.2402579999989,
+        "max_response_time": 835.2402579999989,
+        "min_response_time": 835.2402579999989,
+        "total_content_length": 47,
+        "response_times": {
+            "840.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/assets/academicons/css/academicons.min.css",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.149295,
+        "start_time": 1758002612.1492858,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 883.6375409999988,
+        "max_response_time": 883.6375409999988,
+        "min_response_time": 883.6375409999988,
+        "total_content_length": 7768,
+        "response_times": {
+            "880.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/lib/ng-layer-tune/dist/ng-layer-tune/ng-layer-tune.esm.js",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.1594808,
+        "start_time": 1758002612.1594713,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 104.54584699999714,
+        "max_response_time": 104.54584699999714,
+        "min_response_time": 104.54584699999714,
+        "total_content_length": 945,
+        "response_times": {
+            "100.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/includeMatomo.js",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.260863,
+        "start_time": 1758002612.260853,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 101.28867900000671,
+        "max_response_time": 101.28867900000671,
+        "min_response_time": 101.28867900000671,
+        "total_content_length": 843,
+        "response_times": {
+            "100.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/assets/fontawesome/css/all.min.css",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.3251233,
+        "start_time": 1758002612.3251088,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 1060.0770050000108,
+        "max_response_time": 1060.0770050000108,
+        "min_response_time": 1060.0770050000108,
+        "total_content_length": 59305,
+        "response_times": {
+            "1100.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/catchSyntaxError.js",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.3643985,
+        "start_time": 1758002612.364387,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 103.43190999999763,
+        "max_response_time": 103.43190999999763,
+        "min_response_time": 103.43190999999763,
+        "total_content_length": 410,
+        "response_times": {
+            "100.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/runtime.js",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.4277666,
+        "start_time": 1758002612.4277558,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 102.49767000000531,
+        "max_response_time": 102.49767000000531,
+        "min_response_time": 102.49767000000531,
+        "total_content_length": 1193,
+        "response_times": {
+            "100.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/lib/hbp-connectivity-component/dist/connectivity-component/connectivity-component.js",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.4784732,
+        "start_time": 1758002612.4784613,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 399.7244770000066,
+        "max_response_time": 399.7244770000066,
+        "min_response_time": 399.7244770000066,
+        "total_content_length": 129703,
+        "response_times": {
+            "400.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/lib/ng-layer-tune/dist/ng-layer-tune/p-9649e2d0.js",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.5853622,
+        "start_time": 1758002612.5853486,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 106.76101200000687,
+        "max_response_time": 106.76101200000687,
+        "min_response_time": 106.76101200000687,
+        "total_content_length": 17882,
+        "response_times": {
+            "110.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/styles.css",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.6274633,
+        "start_time": 1758002612.6274493,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 478.0522280000099,
+        "max_response_time": 478.0522280000099,
+        "min_response_time": 478.0522280000099,
+        "total_content_length": 410961,
+        "response_times": {
+            "480.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/lib/three-surfer/dist/bundle.js",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.6312845,
+        "start_time": 1758002612.6312754,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 579.9565680000001,
+        "max_response_time": 579.9565680000001,
+        "min_response_time": 579.9565680000001,
+        "total_content_length": 761764,
+        "response_times": {
+            "580.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/lib/ng-layer-tune/dist/ng-layer-tune/p-e7f71eaa.js",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.688859,
+        "start_time": 1758002612.6888497,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 103.39029200000027,
+        "max_response_time": 103.39029200000027,
+        "min_response_time": 103.39029200000027,
+        "total_content_length": 180,
+        "response_times": {
+            "100.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/lib/hbp-connectivity-component/dist/connectivity-component/p-fba65a86.system.js",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.726547,
+        "start_time": 1758002612.726537,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 98.96947100000375,
+        "max_response_time": 98.96947100000375,
+        "min_response_time": 98.96947100000375,
+        "total_content_length": 2280,
+        "response_times": {
+            "99": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/worker.js",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.730683,
+        "start_time": 1758002612.7306755,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 99.32434799999612,
+        "max_response_time": 99.32434799999612,
+        "min_response_time": 99.32434799999612,
+        "total_content_length": 3520,
+        "response_times": {
+            "99": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/user",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.7917194,
+        "start_time": 1758002612.7917068,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 1,
+        "total_response_time": 102.7350340000055,
+        "max_response_time": 102.7350340000055,
+        "min_response_time": 102.7350340000055,
+        "total_content_length": 17,
+        "response_times": {
+            "100.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {
+            "1758002612": 1
+        }
+    },
+    {
+        "name": "/viewer/main.bundle.js",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.803924,
+        "start_time": 1758002612.8039124,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 699.6448270000002,
+        "max_response_time": 699.6448270000002,
+        "min_response_time": 699.6448270000002,
+        "total_content_length": 1388728,
+        "response_times": {
+            "700.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/main.js",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.8279207,
+        "start_time": 1758002612.8279076,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 400.04915900000526,
+        "max_response_time": 400.04915900000526,
+        "min_response_time": 400.04915900000526,
+        "total_content_length": 741273,
+        "response_times": {
+            "400.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/lib/hbp-connectivity-component/dist/connectivity-component/p-a3eb4831.system.js",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.8300376,
+        "start_time": 1758002612.8300269,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 99.28060800000083,
+        "max_response_time": 99.28060800000083,
+        "min_response_time": 99.28060800000083,
+        "total_content_length": 2309,
+        "response_times": {
+            "99": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/lib/hbp-connectivity-component/dist/connectivity-component/p-1122d015.system.js",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.8359494,
+        "start_time": 1758002612.8359394,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 109.32452999999498,
+        "max_response_time": 109.32452999999498,
+        "min_response_time": 109.32452999999498,
+        "total_content_length": 20575,
+        "response_times": {
+            "110.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/lib/hbp-connectivity-component/dist/connectivity-component/p-ec904422.system.js",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.895422,
+        "start_time": 1758002612.8954084,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 103.49980799999514,
+        "max_response_time": 103.49980799999514,
+        "min_response_time": 103.49980799999514,
+        "total_content_length": 1969,
+        "response_times": {
+            "100.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/worker-plotly.js",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.9065287,
+        "start_time": 1758002612.90652,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 102.51358699999003,
+        "max_response_time": 102.51358699999003,
+        "min_response_time": 102.51358699999003,
+        "total_content_length": 2615,
+        "response_times": {
+            "100.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/worker-typedarray.js",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.9330049,
+        "start_time": 1758002612.9329917,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 102.86720399999183,
+        "max_response_time": 102.86720399999183,
+        "min_response_time": 102.86720399999183,
+        "total_content_length": 3675,
+        "response_times": {
+            "100.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/worker-nifti.js",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.9366853,
+        "start_time": 1758002612.9366748,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 108.66545999999744,
+        "max_response_time": 108.66545999999744,
+        "min_response_time": 108.66545999999744,
+        "total_content_length": 5591,
+        "response_times": {
+            "110.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/worker-regionFilter.js",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.9380019,
+        "start_time": 1758002612.9379911,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 101.97178199999257,
+        "max_response_time": 101.97178199999257,
+        "min_response_time": 101.97178199999257,
+        "total_content_length": 707,
+        "response_times": {
+            "100.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/assets/logo/ebrains-logo-dark.svg",
+        "method": "GET",
+        "last_request_timestamp": 1758002612.9983475,
+        "start_time": 1758002612.998336,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 102.8041160000015,
+        "max_response_time": 102.8041160000015,
+        "min_response_time": 102.8041160000015,
+        "total_content_length": 11876,
+        "response_times": {
+            "100.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002612": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/assets/fontawesome/webfonts/fa-solid-900.woff2",
+        "method": "GET",
+        "last_request_timestamp": 1758002613.0108416,
+        "start_time": 1758002613.010836,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 104.02159800000277,
+        "max_response_time": 104.02159800000277,
+        "min_response_time": 104.02159800000277,
+        "total_content_length": 78268,
+        "response_times": {
+            "100.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002613": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/assets/fontawesome/webfonts/fa-regular-400.woff2",
+        "method": "GET",
+        "last_request_timestamp": 1758002613.0369616,
+        "start_time": 1758002613.0369487,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 98.85794100000567,
+        "max_response_time": 98.85794100000567,
+        "min_response_time": 98.85794100000567,
+        "total_content_length": 13224,
+        "response_times": {
+            "99": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002613": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/chunk_worker.bundle.js",
+        "method": "GET",
+        "last_request_timestamp": 1758002613.1178567,
+        "start_time": 1758002613.0408974,
+        "num_requests": 2,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 214.72853400000247,
+        "max_response_time": 107.80359199999623,
+        "min_response_time": 106.92494200000624,
+        "total_content_length": 602722,
+        "response_times": {
+            "110.0": 2
+        },
+        "num_reqs_per_sec": {
+            "1758002613": 2
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/assets/logo/ebrains-logo-light.svg",
+        "method": "GET",
+        "last_request_timestamp": 1758002613.0411584,
+        "start_time": 1758002613.041149,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 104.39281799999378,
+        "max_response_time": 104.39281799999378,
+        "min_response_time": 104.39281799999378,
+        "total_content_length": 11915,
+        "response_times": {
+            "100.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002613": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/vendor.js",
+        "method": "GET",
+        "last_request_timestamp": 1758002613.0657778,
+        "start_time": 1758002613.0657609,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 701.2318129999926,
+        "max_response_time": 701.2318129999926,
+        "min_response_time": 701.2318129999926,
+        "total_content_length": 1687458,
+        "response_times": {
+            "700.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002613": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/plugins/manifests",
+        "method": "GET",
+        "last_request_timestamp": 1758002613.1039345,
+        "start_time": 1758002613.1039221,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 105.47229100001232,
+        "max_response_time": 105.47229100001232,
+        "min_response_time": 105.47229100001232,
+        "total_content_length": 246,
+        "response_times": {
+            "110.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002613": 1
+        },
+        "num_fail_per_sec": {}
+    },
+    {
+        "name": "/viewer/icons/iav-icons.woff",
+        "method": "GET",
+        "last_request_timestamp": 1758002613.1377835,
+        "start_time": 1758002613.1377738,
+        "num_requests": 1,
+        "num_none_requests": 0,
+        "num_failures": 0,
+        "total_response_time": 100.69605799999692,
+        "max_response_time": 100.69605799999692,
+        "min_response_time": 100.69605799999692,
+        "total_content_length": 2428,
+        "response_times": {
+            "100.0": 1
+        },
+        "num_reqs_per_sec": {
+            "1758002613": 1
+        },
+        "num_fail_per_sec": {}
+    }
+]
