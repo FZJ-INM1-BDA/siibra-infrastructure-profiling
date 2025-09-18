@@ -1,0 +1,98 @@
+[
+  {
+    "label": "datavm",
+    "region": "ap-southeast",
+    "avg": 369.09090909090907,
+    "std": 44.82288376589472,
+    "unit": "ms",
+    "n": 11
+  },
+  {
+    "label": "datavm",
+    "region": "us-east",
+    "avg": 99.54545454545455,
+    "std": 0.6875516509523286,
+    "unit": "ms",
+    "n": 11
+  },
+  {
+    "label": "datavm",
+    "region": "eu-central",
+    "avg": 10.181818181818182,
+    "std": 0.9816498172140428,
+    "unit": "ms",
+    "n": 11
+  },
+  {
+    "label": "datavm",
+    "region": "us-west",
+    "avg": 163.68924109090824,
+    "std": 5.0062243353029015,
+    "unit": "ms",
+    "n": 11
+  },
+  {
+    "label": "siibraapi",
+    "region": "ap-southeast",
+    "avg": 360.90909090909093,
+    "std": 47.634975691091825,
+    "unit": "ms",
+    "n": 11
+  },
+  {
+    "label": "siibraapi",
+    "region": "us-east",
+    "avg": 105.49445363636447,
+    "std": 9.316751332591958,
+    "unit": "ms",
+    "n": 11
+  },
+  {
+    "label": "siibraapi",
+    "region": "eu-central",
+    "avg": 24.727272727272727,
+    "std": 24.438047831571613,
+    "unit": "ms",
+    "n": 11
+  },
+  {
+    "label": "siibraapi",
+    "region": "us-west",
+    "avg": 168.1818181818182,
+    "std": 4.045199174779453,
+    "unit": "ms",
+    "n": 11
+  },
+  {
+    "label": "siibraexplorer",
+    "region": "ap-southeast",
+    "avg": 350.0,
+    "std": 53.85164807134504,
+    "unit": "ms",
+    "n": 11
+  },
+  {
+    "label": "siibraexplorer",
+    "region": "us-east",
+    "avg": 100.0,
+    "std": 0.0,
+    "unit": "ms",
+    "n": 11
+  },
+  {
+    "label": "siibraexplorer",
+    "region": "eu-central",
+    "avg": 65.54545454545455,
+    "std": 11.396171605970457,
+    "unit": "ms",
+    "n": 11
+  },
+  {
+    "label": "siibraexplorer",
+    "region": "us-west",
+    "avg": 168.32374481818158,
+    "std": 3.745735145508717,
+    "unit": "ms",
+    "n": 11
+  }
+]

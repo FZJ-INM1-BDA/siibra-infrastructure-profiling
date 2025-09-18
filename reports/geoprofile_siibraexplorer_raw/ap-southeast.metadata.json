@@ -1,0 +1,79 @@
+[
+  {
+    "median": 400.0,
+    "start": "2025-09-11 12:09:13",
+    "end": "2025-09-11 12:09:17",
+    "raw_json": "run-result/geoprofile-siibraexplorer-3/linode-ap-southeast-0/output.json",
+    "csv_path": "run-result/geoprofile-siibraexplorer-3/linode-ap-southeast-0/output_stats.csv"
+  },
+  {
+    "median": 300.0,
+    "start": "2025-09-12 05:03:56",
+    "end": "2025-09-12 05:03:59",
+    "raw_json": "run-result/geoprofile-siibraexplorer-4/linode-ap-southeast-0/output.json",
+    "csv_path": "run-result/geoprofile-siibraexplorer-4/linode-ap-southeast-0/output_stats.csv"
+  },
+  {
+    "median": 410.0,
+    "start": "2025-09-17 02:14:14",
+    "end": "2025-09-17 02:14:18",
+    "raw_json": "run-result/geoprofile-siibraexplorer-9/linode-ap-southeast-0/output.json",
+    "csv_path": "run-result/geoprofile-siibraexplorer-9/linode-ap-southeast-0/output_stats.csv"
+  },
+  {
+    "median": 410.0,
+    "start": "2025-09-15 08:29:57",
+    "end": "2025-09-15 08:30:01",
+    "raw_json": "run-result/geoprofile-siibraexplorer-7/linode-ap-southeast-0/output.json",
+    "csv_path": "run-result/geoprofile-siibraexplorer-7/linode-ap-southeast-0/output_stats.csv"
+  },
+  {
+    "median": 300.0,
+    "start": "2025-08-21 13:42:42",
+    "end": "2025-08-21 13:42:45",
+    "raw_json": "run-result/geoprofile-siibraexplorer-0/linode-ap-southeast-0/output.json",
+    "csv_path": "run-result/geoprofile-siibraexplorer-0/linode-ap-southeast-0/output_stats.csv"
+  },
+  {
+    "median": 300.0,
+    "start": "2025-09-18 07:46:10",
+    "end": "2025-09-18 07:46:14",
+    "raw_json": "run-result/geoprofile-siibraexplorer-a/linode-ap-southeast-0/output.json",
+    "csv_path": "run-result/geoprofile-siibraexplorer-a/linode-ap-southeast-0/output_stats.csv"
+  },
+  {
+    "median": 310.0,
+    "start": "2025-09-16 06:08:42",
+    "end": "2025-09-16 06:08:46",
+    "raw_json": "run-result/geoprofile-siibraexplorer-8/linode-ap-southeast-0/output.json",
+    "csv_path": "run-result/geoprofile-siibraexplorer-8/linode-ap-southeast-0/output_stats.csv"
+  },
+  {
+    "median": 410.0,
+    "start": "2025-09-09 14:56:48",
+    "end": "2025-09-09 14:56:52",
+    "raw_json": "run-result/geoprofile-siibraexplorer-1/linode-ap-southeast-0/output.json",
+    "csv_path": "run-result/geoprofile-siibraexplorer-1/linode-ap-southeast-0/output_stats.csv"
+  },
+  {
+    "median": 310.0,
+    "start": "2025-09-10 06:27:43",
+    "end": "2025-09-10 06:27:47",
+    "raw_json": "run-result/geoprofile-siibraexplorer-2/linode-ap-southeast-0/output.json",
+    "csv_path": "run-result/geoprofile-siibraexplorer-2/linode-ap-southeast-0/output_stats.csv"
+  },
+  {
+    "median": 300.0,
+    "start": "2025-09-14 08:12:23",
+    "end": "2025-09-14 08:12:26",
+    "raw_json": "run-result/geoprofile-siibraexplorer-6/linode-ap-southeast-0/output.json",
+    "csv_path": "run-result/geoprofile-siibraexplorer-6/linode-ap-southeast-0/output_stats.csv"
+  },
+  {
+    "median": 400.0,
+    "start": "2025-09-13 10:12:30",
+    "end": "2025-09-13 10:12:34",
+    "raw_json": "run-result/geoprofile-siibraexplorer-5/linode-ap-southeast-0/output.json",
+    "csv_path": "run-result/geoprofile-siibraexplorer-5/linode-ap-southeast-0/output_stats.csv"
+  }
+]

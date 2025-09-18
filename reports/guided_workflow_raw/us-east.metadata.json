@@ -1,0 +1,80 @@
+[
+  {
+    "start": "2025-09-13 11:36:03",
+    "end_time": "2025-09-13 11:37:12",
+    "raw_json": "run-result/geoprofile-guided-workflow-7/linode-us-east-0/output.json",
+    "delta": 69.064867
+  },
+  {
+    "start": "2025-09-14 08:25:48",
+    "end_time": "2025-09-14 08:26:56",
+    "raw_json": "run-result/geoprofile-guided-workflow-8/linode-us-east-0/output.json",
+    "delta": 68.200466
+  },
+  {
+    "start": "2025-09-12 05:42:33",
+    "end_time": "2025-09-12 05:43:48",
+    "raw_json": "run-result/geoprofile-guided-workflow-6/linode-us-east-0/output.json",
+    "delta": 75.015946
+  },
+  {
+    "start": "2025-09-10 07:34:08",
+    "end_time": "2025-09-10 07:35:53",
+    "raw_json": "run-result/geoprofile-guided-workflow-4/linode-us-east-0/output.json",
+    "delta": 105.15032
+  },
+  {
+    "start": "2025-09-05 07:15:04",
+    "end_time": "2025-09-05 07:16:14",
+    "raw_json": "run-result/geoprofile-guided-workflow-1/linode-us-east-0/output.json",
+    "delta": 69.788694
+  },
+  {
+    "start": "2025-09-03 09:13:58",
+    "end_time": "2025-09-03 09:15:06",
+    "raw_json": "run-result/geoprofile-guided-workflow-0/linode-us-east-0/output.json",
+    "delta": 67.909215
+  },
+  {
+    "start": "2025-09-15 08:43:33",
+    "end_time": "2025-09-15 08:44:42",
+    "raw_json": "run-result/geoprofile-guided-workflow-9/linode-us-east-0/output.json",
+    "delta": 68.920606
+  },
+  {
+    "start": "2025-09-17 02:33:35",
+    "end_time": "2025-09-17 02:34:43",
+    "raw_json": "run-result/geoprofile-guided-workflow-b/linode-us-east-0/output.json",
+    "delta": 68.015707
+  },
+  {
+    "start": "2025-09-16 08:03:43",
+    "end_time": "2025-09-16 08:04:52",
+    "raw_json": "run-result/geoprofile-guided-workflow-a/linode-us-east-0/output.json",
+    "delta": 69.313009
+  },
+  {
+    "start": "2025-09-11 12:27:12",
+    "end_time": "2025-09-11 12:28:21",
+    "raw_json": "run-result/geoprofile-guided-workflow-5/linode-us-east-0/output.json",
+    "delta": 68.935259
+  },
+  {
+    "start": "2025-09-05 09:03:45",
+    "end_time": "2025-09-05 09:04:56",
+    "raw_json": "run-result/geoprofile-guided-workflow-2/linode-us-east-0/output.json",
+    "delta": 70.596236
+  },
+  {
+    "start": "2025-09-18 07:59:36",
+    "end_time": "2025-09-18 08:00:49",
+    "raw_json": "run-result/geoprofile-guided-workflow-c/linode-us-east-0/output.json",
+    "delta": 73.071209
+  },
+  {
+    "start": "2025-09-09 08:59:53",
+    "end_time": "2025-09-09 09:02:08",
+    "raw_json": "run-result/geoprofile-guided-workflow-3/linode-us-east-0/output.json",
+    "delta": 134.39656
+  }
+]
